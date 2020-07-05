@@ -7,6 +7,12 @@
     -webkit-box-sizing: border-box;
 }
 
+html,
+body{
+    height: 100%;
+}
+
+
 body{
     font-family: 'Open Sans' , sans-serif;
     color: #2c3e50;
@@ -42,9 +48,16 @@ textarea{
     font-size: 0%;
 }
 
-.row{
+.row,
+.section{
     float: left;
     width: 100%;
+}
+
+.section-header{
+    text-align: center;
+
+
 }
 
 .content{
